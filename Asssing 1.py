@@ -16,6 +16,10 @@ def test(times, percent, obsize):
             int2 = int2 - 1
 
     return observations
+    
+def cal_mean(observations):
+
+def cal_stdv(observations):
 
 
 
