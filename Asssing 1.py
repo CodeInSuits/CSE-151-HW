@@ -24,6 +24,10 @@ def test(times, percent, obsize):
                 int1 = int1 - 1
             int2 = int2 - 1
     return observations
+    
+def cal_mean(observations):
+
+def cal_stdv(observations):
 
 # Calculates the mean and normalizes it based on the runs
 def meancalc(obsize):
@@ -74,6 +78,7 @@ with open('abalone.txt') as linetext:
 lines = len(text)
 print (lines)
 
+<<<<<<< HEAD
 mean = meancalc(lines)
 std = stdcalc(lines)
 runs = [10, 100, 1000, 10000, 100000]
@@ -83,3 +88,6 @@ print("Mean: " + str(mean))
 print("STD: " + str(std))
 
 plotgraph(runs, mean)
+=======
+print(test(10, 0.1, 100))
+>>>>>>> origin/master
